@@ -1,0 +1,121 @@
+body, html {
+   background-color: #C2D3FF;
+    padding: 0px;
+   margin-top: 0px;
+    margin-left: 0px;
+    margin-right:0px;
+    height: 100%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.7;
+    font-family: Muli,sans-serif;
+    letter-spacing: 0;
+    text-align: left;
+    color: #333;
+}
+/*header image*/
+.hero-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), 
+    rgba(0, 0, 0, 0.5)), url("./imgs/header.JPG");
+    height:50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.hero-text {
+    text-align:center;
+    position:absolute;
+    top: 50%;
+    left:   50%;
+    transform: translate(-50%, -50%);
+    color:white;
+}
+
+/*navigation links*/
+.linkbox{
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    width: 100%;
+    /* background-color: violet; */
+}
+
+
+/* @media all and (max-width: 300px) {
+    .padbox { display: none; }
+} */
+
+.linktiles{
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+}
+.linktiles .tile{
+    /* margin: 2em; */
+    padding: 0.5rem 1.6rem;
+    background-color: #333;
+    font-size:1.5rem;
+    border-radius:0.5rem;
+
+}
+.linktiles .tile .titles{
+    padding: 10px;
+    font-size:12px;
+    position: relative;
+    bottom: 0;
+    left:0;
+}
+.linktiles a{
+    color:white;
+    text-decoration: none;
+}
+
+/*activity descriptions*/
+
+.carddiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.carddiv div{
+    border-color: transparent!important;
+}
+.carddiv .card-body{
+    border-radius: 1rem;
+}
+.headings h1:nth-of-type(odd){
+    text-align: right;
+}
+.weeksectioncontainer{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1% 10%;
+}
+
+@media (min-width:768px) {
+    .element-inner-column{
+        width:33.3333%;
+    }
+
+}
+footer #credit{
+    font-size: 10pt;
+    color: white;
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
+#multiContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
